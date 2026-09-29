@@ -1,7 +1,7 @@
-
 body { 
-    background: #0a243b; 
-    color: white; 
+    background-image: url("imagenes/fondo.png");
+    background-size: cover;
+    background-position: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     display: flex; 
     flex-direction: column; 
@@ -12,7 +12,6 @@ body {
    
 }              
 #grupo { 
-    background-color: #0a243b; 
     color: #e3cd63; 
     font-size: 40px;
     display: flex; 
