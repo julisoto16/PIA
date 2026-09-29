@@ -1,7 +1,8 @@
 body {
+    background-image: url("../imagenes/fondo.png");
+    background-size: cover;
+    background-position: center;
     font-family: Arial, sans-serif;
-    background-color: #03182b;
-    color: white;
     display: flex ;
     justify-content: center;
     align-items: center;
@@ -12,6 +13,7 @@ body {
 .login {
     background-color: #0a243b;
     background-color:#0a243b ;
+    color: white;
     padding: 30px;
     width: 320px;
     border-radius: 15px;
@@ -67,10 +69,3 @@ input {
     background-color: white;
     color: #e3cd63;
 }
-
-#mensaje {
-    font-weight: bold;
-}
-
-
-
