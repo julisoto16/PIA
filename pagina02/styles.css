@@ -1,0 +1,98 @@
+body {
+    background-image: url("../imagenes/fondo.png");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login {
+    background-color: #0a243b;
+    background-color:#0a243b ;
+    color: white;
+    padding: 30px;
+    width: 320px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 15px #e3cd63;
+}
+
+h1 {
+    color: #e3cd63;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ffd001;
+    border-radius: 5px;
+}
+
+.password {
+    display: flex;
+    gap: 5px;
+}
+
+.password input {
+    flex: 1;
+}
+
+.ingresar {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #e3cd63;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ingresar:hover {
+    background-color: white;
+    color: #e3cd63;
+}
+
+
+.logo {
+width: 200px;
+height: auto;
+position: absolute;
+top: 10px;
+left: 10px;
+}
+
+.javiera{
+ width: 100px;
+height: auto;
+position: absolute;
+bottom: 10px;
+right: 10px;
+}
+
+.volver {
+   display:flex; 
+   align-items: center;
+   justify-content: center; 
+    width: 36px;
+    height: 36px;
+    border: 2px solid #ffffff; 
+    border-radius: 8px; 
+    color: #ffffff; 
+    text-decoration: none;
+    font-size: 20px; 
+    font-weight: bold; 
+}
